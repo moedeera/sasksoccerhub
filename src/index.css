@@ -12,14 +12,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  --primary-color-bg: #f6f3ef;
-  --primary-button: #ffcd6d;
+  --primary-color-bg: #9ed8db;
+  --primary-button: #33ca7f;
   --width: 95%;
   --max-width-main: 1340px;
   --padding-top-sm: 80px;
   --padding-top-md: 100px;
   --padding-top-lg: 120px;
   --dark-font: #213547;
+  --light-font: white;
 }
 
 * {
@@ -64,7 +65,7 @@ small {
 a,
 a:visited {
   font-weight: 500;
-  color: black;
+  color: var(--light-font);
   text-decoration: none;
 }
 
@@ -104,6 +105,7 @@ textarea {
   font-size: medium;
   text-transform: uppercase;
   width: max-content;
+  cursor: pointer;
 }
 
 .btn-green {
