@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./LoginPage.css";
 
@@ -10,7 +9,7 @@ export const LoginPage = ({ setPage }) => {
           <h3>Login </h3>
           <small>
             Don't have an account?{" "}
-            <Link className="b" to={"/"}>
+            <Link className="b" to={"/register"}>
               Create a new one
             </Link>
           </small>
